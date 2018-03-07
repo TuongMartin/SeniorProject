@@ -9,5 +9,7 @@ public class ThreeModelActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate( savedInstanceState );
         setContentView( R.layout.activity_three_model );
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled( true );
     }
 }

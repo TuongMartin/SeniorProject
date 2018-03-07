@@ -16,9 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DirectoryActivity" />
-        <activity android:name=".ThreeModelActivity" />
-        <activity android:name=".CameraActivity"></activity>
+        <activity android:name=".DirectoryActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".ThreeModelActivity"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CameraActivity"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
